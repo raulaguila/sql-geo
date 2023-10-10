@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS "geo_timezones";
 CREATE TABLE geo_timezones(
     id bigserial NOT NULL,
     created_at timestamptz DEFAULT NULL,
-	updated_at timestamptz DEFAULT NULL,
+    updated_at timestamptz DEFAULT NULL,
     "name" varchar(60) NOT NULL,
     gmt varchar(10) NOT NULL,
     /* Keys */

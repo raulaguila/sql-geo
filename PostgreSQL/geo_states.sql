@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS "geo_states";
 CREATE TABLE geo_states(
     id bigserial NOT NULL,
     created_at timestamptz DEFAULT NULL,
-	updated_at timestamptz DEFAULT NULL,
+    updated_at timestamptz DEFAULT NULL,
     "name" varchar(60) NOT NULL,
     acronym varchar(2),
     latitude double precision NOT NULL,

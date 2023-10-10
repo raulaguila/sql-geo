@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS "geo_regions";
 CREATE TABLE geo_regions(
     id bigserial NOT NULL,
     created_at timestamptz DEFAULT NULL,
-	updated_at timestamptz DEFAULT NULL,
+    updated_at timestamptz DEFAULT NULL,
     "name" varchar(60) NOT NULL,
     /* Keys */
     CONSTRAINT region_name_unique UNIQUE (name),
