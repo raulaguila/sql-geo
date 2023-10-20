@@ -57,3 +57,5 @@ VALUES
     (25, 'Sergipe', 'SE', -10.90, -37.07, 30, 2),
     (26, 'São Paulo', 'SP', -23.55, -46.64, 30, 2),
     (27, 'Tocantins', 'TO', -10.25, -48.25, 30, 1);
+
+ALTER SEQUENCE geo_states_id_seq RESTART WITH 28;

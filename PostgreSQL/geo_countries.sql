@@ -276,3 +276,5 @@ VALUES
     (242, 'Yemen', 'YE', 'YEM', 15.552727, 48.516388, 3),
     (243, 'Zambia', 'ZM', 'ZMB', -13.133897, 27.849332, 1),
     (244, 'Zimbabwe', 'ZW', 'ZWE', -19.015438, 29.154857, 1);
+
+ALTER SEQUENCE geo_countries_id_seq RESTART WITH 245;

@@ -29,3 +29,5 @@ VALUES
     (6, 'North America'),
     (7, 'Oceania'),
     (8, 'South America');
+
+ALTER SEQUENCE geo_continents_id_seq RESTART WITH 9;

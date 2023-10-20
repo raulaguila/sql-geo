@@ -440,3 +440,5 @@ VALUES
     (416, 'Pacific/Tongatapu', 'UTC +13:00'),
     (417, 'Pacific/Wake', 'UTC +12:00'),
     (418, 'Pacific/Wallis', 'UTC +12:00');
+
+ALTER SEQUENCE geo_timezones_id_seq RESTART WITH 419;

@@ -26,3 +26,5 @@ VALUES
     (3, 'Southeast'),
     (4, 'South'),
     (5, 'Midwest');
+
+ALTER SEQUENCE geo_regions_id_seq RESTART WITH 6;

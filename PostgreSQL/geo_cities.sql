@@ -5598,3 +5598,5 @@ VALUES
     (5568, 'Zacarias', -21.0506, -50.0552, false, 177, 26),
     (5569, 'Zé Doca', -3.27014, -45.6553, false, 177, 10),
     (5570, 'Zortéa', -27.4521, -51.552, false, 177, 24);
+
+ALTER SEQUENCE geo_cities_id_seq RESTART WITH 5571;
